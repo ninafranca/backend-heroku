@@ -12,12 +12,9 @@ try {
         from: `whatsapp:${envConfig.TWILIO_WHATSAPP}`,
         to: `whatsapp:${envConfig.TWILIO_WHATSAPP_VERIFIED}`,
         body: "Prueba de Whatsapp con Twilio",
-        //Para enviar imágenes puedo poner coma y adjuntar más// 
         mediaUrl: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZe8xjSlSEI8a1SK92Jay9sPqJXumdLkVAAg&usqp=CAU"]
     })
     logger.info(`Whatsapp enviado: ${result}`);
-    //console.log(result);
 } catch(error) {
     logger.error(`Ha fallado el envío de whatsapp: ${error}`);
-    //console.log(error);
 }

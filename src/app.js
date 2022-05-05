@@ -1,6 +1,6 @@
 import __dirname from "./utils.js";
 import express from "express";
-import {chats, users, products, carts} from "./daos/index.js";
+import {chats, products, carts} from "./daos/index.js";
 import productsRouter from "./routes/products.js";
 import carritoRouter from "./routes/carrito.js";
 import chatsRouter from "./routes/chats.js";
@@ -148,38 +148,6 @@ app.get("/productos/:category", passportCall("jwt"), (req, res) => {
         } else {res.status(500).send(result)}
     })
 })
-// app.get("/carrito/:id_user", passportCall("jwt"), (req, res) => {
-//     let id = req.params.id_user;
-//     let user = req.user.payload.toObject();
-//     if (req.user.status !== "success") {
-//         location.replace("/login")
-//     } else {
-//         carts.getCartByUserId(id).then(result => {
-//             if(result.status === "success") {
-//                 const productsId = result.payload;
-//                 const cartId = result.cartId;
-//                 let list = []
-//                 productsId.map(p => products.getById(p).then(result => {
-//                     if (result.status === "success") {
-//                         list.push(result.payload.toObject())
-//                     }
-//                     }))
-//                 setTimeout(() => {
-//                     let total = list.reduce((a, b) => {
-//                         return {price: a.price + b.price};
-//                     })
-//                     const objects = {products: list, user: user, cart: cartId, total: total};
-//                     if (result.status === "success") {
-//                         res.render("Cart", objects);
-//                     } else {res.status(500).send(result)}
-//                 }, 3000)
-//             } else {
-//                 const objects = {user};
-//                 res.render("Cart", objects);
-//             }
-//         })
-//     }
-// })
 app.get("/carrito/:id_user", passportCall("jwt"), (req, res) => {
     let id = req.params.id_user;
     let user = req.user.payload.toObject();
@@ -197,30 +165,27 @@ app.get("/carrito/:id_user", passportCall("jwt"), (req, res) => {
                     if (result.status === "success") {
                         list.push(result.payload.toObject())
                     }
-                    }))
+                }))
                 setTimeout(() => {
                     let total = list.reduce((a, b) => {
                         return {price: a.price + b.price};
                     })
-                    console.log(list);
-                    // let repeatedProds = [...list.reduce( (mp, o) => {
-                    //     if (!mp.has(o.title)) mp.set(o.title, { ...o, count: 0 });
-                    //     mp.get(o.title).count++;
-                    //     return mp;
-                    // }, new Map).values()];
-                                        let repeatedProds = [...list.reduce( (mp, o) => {
-                        if (!mp.has(o.title)) mp.set(o.title, { ...o, count: 0 });
+                    let repeatedProds = [...list.reduce( (mp, o) => {
+                        if (!mp.has(o.title)) mp.set(o.title, {...o, count: 0});
                         mp.get(o.title).count++;
                         return mp;
                     }, new Map).values()];
                     const objects = {products: repeatedProds, user: user, cart: cartId, total: total};
                     if (result.status === "success") {
                         res.render("Cart", objects);
-                    } else {res.status(500).send(result)}
+                    } else {
+                        res.status(500).send(result);
+                        return;}
                 }, 500)
             } else {
                 const objects = {user};
                 res.render("Cart", objects);
+                return;
             }
         })
     }
@@ -228,7 +193,6 @@ app.get("/carrito/:id_user", passportCall("jwt"), (req, res) => {
 
 //APP.POST
 app.post("/register", upload.single("avatar"), passportCall("register"), (req, res) => {
-    //const file = req.file;
     if(res.status === "error") {
         res.send({status: "error", message: "Usuario ya existente"})
     } else {
@@ -250,14 +214,12 @@ app.post("/logout", (req, res) => {
 })
 
 let messages = [];
-//CON EL SERVIDOR, CUANDO SE CONECTE EL SOCKET, HACE LO SIGUIENTE => {}
 io.on("connection", async socket => {
     console.log("Se conectó socket " + socket.id);
     let prods = await products.getAll();
     socket.emit("deliverProducts", prods);
     socket.emit("messagelog", messages);
     socket.on("message", data => {
-        //ACA INSERTAR MÉTODOS PARA MENSAJES
         chats.saveMessage(data)
         .then(result => console.log(result))
         .then(() => {

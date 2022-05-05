@@ -7,7 +7,6 @@ registrationForm.addEventListener("submit", (e) => {
         fetch("/register", {
             method: "POST",
             body: info
-            // headers: {"Content-Type":"application/json"}
         })
         .then(result => {
             if (result.status === 200) {
