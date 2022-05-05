@@ -26,9 +26,11 @@ router.post("/cart/:cart_id/user/:user_id", (req, res) => {
             await carts.deleteCartById(cartId).then(result => {
                 console.log(3);
                 res.send(result);
+                return;
             });
-            console.log(4);
-            res.send(result);
+            //console.log(4);
+            //res.send(result);
+            //return;
         })
     })
 })
