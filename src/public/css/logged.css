@@ -1,0 +1,50 @@
+/* LOGGED HEADER */
+.logged-header {
+    background-color: #6c757d;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logged-header>a, .logged-header>a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    color: white;
+    background-color: #6c757d !important;
+    border: #6c757d !important;
+    box-shadow: none !important;
+}
+
+/* LOGGED */
+.logged-welcome {
+    text-align: center;
+}
+
+.logged-welcome>h1 {
+    margin: 2% 0;
+}
+
+/* USER INFO */
+.logged-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logged-user-info>h1 {
+    margin: 2% 0;
+    text-align: center;
+}
+
+.info-flex1 {
+    display: flex;
+    align-items: center;
+}
+
+.info-flex2 {
+    width: 40vw;
+}

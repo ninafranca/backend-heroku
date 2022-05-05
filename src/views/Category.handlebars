@@ -1,0 +1,54 @@
+<header class="logged-header">
+    <a href="/user-info">Cuenta</a>
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Productos
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="/productos/mujer">Mujer</a></li>
+            <li><a class="dropdown-item" href="/productos/hombre">Hombre</a></li>
+            <li><a class="dropdown-item" href="/productos">Todos</a></li>
+        </ul>
+    </div>
+    <a href="/carrito/{{user._id}}">Carrito</a>
+    <a href="/chat">Chat</a>
+    <a href="/logout">Desloguearse</a>
+</header>
+
+<h1 class="products-h1">Productos</h1>
+<div class="products-list">
+    {{#if products}}
+        {{#each products}}
+        <div class="buy-product card shadow p-3 mb-5 bg-body rounded" id="buy-form">
+            {{!-- <form class="buy-product card shadow p-3 mb-5 bg-body rounded" id="buy-form" name="buy-form" method="POST" action="http://localhost:8080/api/carrito/usuario/{{../user._id}}/producto/{{this._id}}"> --}}
+            <div class="product-info">
+                <h2 class="product-title">{{this.title}}</h2>
+                <h2 class="product-brand">{{this.brand}}</h2>
+                <h2 class="product-description">{{this.description}}</h2>
+                <h2 class="product-price">${{this.price}}</h2>
+                <img src="{{this.thumbnail}}" alt="Product image" class="product-thumbnail">
+            </div>
+            <button id="{{this._id}}" type="submit" onclick="buyProduct(`{{../user._id}}`, `{{this._id}}`)" value="send" class="btn btn-blue buy" data-bs-toggle="modal" data-bs-target="#productModal">Comprar</button>
+            {{!-- Modal --}}
+            <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel">Producto añadido a carrito</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    {{else}}
+        <h2>No hay productos</h2>
+    {{/if}}
+</div>
+
+<script src="/js/buy.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

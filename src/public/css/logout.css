@@ -1,0 +1,10 @@
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.logout>a {
+    padding-top: 4%;
+}

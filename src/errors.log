@@ -1,0 +1,230 @@
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2022-05-02T18:04:46.307Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2022-05-02T18:05:00.488Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2022-05-02T18:05:15.366Z"}
+{"level":"error","message":"Parameter \"obj\" to Document() must be an object, got 623ea8c0dd0768d43411e954","timestamp":"2022-05-03T17:47:19.305Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{\n  _id: {\n    '0': '6',\n    '1': '2',\n    '2': '3',\n    '3': 'e',\n    '4': 'a',\n    '5': '8',\n    '6': 'c',\n    '7': '0',\n    '8': 'd',\n    '9': 'd',\n    '10': '0',\n    '11': '7',\n    '12': '6',\n    '13': '8',\n    '14': 'd',\n    '15': '4',\n    '16': '3',\n    '17': '4',\n    '18': '1',\n    '19': '1',\n    '20': 'e',\n    '21': '9',\n    '22': '5',\n    '23': '4',\n    _id: new ObjectId(\"62716aa7510195fbf429e605\")\n  }\n}\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T17:47:19.733Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{\n  _id: {\n    '0': '6',\n    '1': '2',\n    '2': '3',\n    '3': 'e',\n    '4': 'a',\n    '5': '8',\n    '6': 'c',\n    '7': '0',\n    '8': 'd',\n    '9': 'd',\n    '10': '0',\n    '11': '7',\n    '12': '6',\n    '13': '8',\n    '14': 'd',\n    '15': '4',\n    '16': '3',\n    '17': '4',\n    '18': '1',\n    '19': '1',\n    '20': 'e',\n    '21': '9',\n    '22': '5',\n    '23': '4',\n    _id: new ObjectId(\"62716aa7510195fbf429e606\")\n  }\n}\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T17:47:19.734Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{\n  _id: {\n    '0': '6',\n    '1': '2',\n    '2': '3',\n    '3': 'e',\n    '4': 'a',\n    '5': '8',\n    '6': 'c',\n    '7': '0',\n    '8': 'd',\n    '9': 'd',\n    '10': '0',\n    '11': '7',\n    '12': '6',\n    '13': '8',\n    '14': 'd',\n    '15': '4',\n    '16': '3',\n    '17': '4',\n    '18': '1',\n    '19': '1',\n    '20': 'e',\n    '21': '9',\n    '22': '5',\n    '23': '4',\n    _id: new ObjectId(\"62716ab723fa9bed835fffb8\")\n  }\n}\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T17:47:35.045Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{\n  _id: {\n    '0': '6',\n    '1': '2',\n    '2': '3',\n    '3': 'e',\n    '4': 'a',\n    '5': '8',\n    '6': 'c',\n    '7': '0',\n    '8': 'd',\n    '9': 'd',\n    '10': '0',\n    '11': '7',\n    '12': '6',\n    '13': '8',\n    '14': 'd',\n    '15': '4',\n    '16': '3',\n    '17': '4',\n    '18': '1',\n    '19': '1',\n    '20': 'e',\n    '21': '9',\n    '22': '5',\n    '23': '4',\n    _id: new ObjectId(\"62716ab723fa9bed835fffb9\")\n  }\n}\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T17:47:35.049Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T17:52:14.991Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{\n  _id: {\n    '0': '6',\n    '1': '2',\n    '2': '3',\n    '3': 'e',\n    '4': 'a',\n    '5': '8',\n    '6': 'c',\n    '7': '0',\n    '8': 'd',\n    '9': 'd',\n    '10': '0',\n    '11': '7',\n    '12': '6',\n    '13': '8',\n    '14': 'd',\n    '15': '4',\n    '16': '3',\n    '17': '4',\n    '18': '1',\n    '19': '1',\n    '20': 'e',\n    '21': '9',\n    '22': '5',\n    '23': '4',\n    _id: new ObjectId(\"62716bd3f046b896dbf8e950\")\n  }\n}\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T17:52:19.602Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{\n  _id: {\n    '0': '6',\n    '1': '2',\n    '2': '3',\n    '3': 'e',\n    '4': 'a',\n    '5': '8',\n    '6': 'c',\n    '7': '0',\n    '8': 'd',\n    '9': 'd',\n    '10': '0',\n    '11': '7',\n    '12': '6',\n    '13': '8',\n    '14': 'd',\n    '15': '4',\n    '16': '3',\n    '17': '4',\n    '18': '1',\n    '19': '1',\n    '20': 'e',\n    '21': '9',\n    '22': '5',\n    '23': '4',\n    _id: new ObjectId(\"62716bd3f046b896dbf8e951\")\n  }\n}\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T17:52:19.603Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T18:16:00.921Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T18:17:01.104Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T18:17:29.265Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T18:17:39.427Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T18:20:19.602Z"}
+{"level":"error","message":"carts validation failed: product.quantity: Path `product.quantity` is required., product.id: Path `product.id` is required.","timestamp":"2022-05-03T18:20:48.246Z"}
+{"level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","timestamp":"2022-05-03T18:21:48.429Z"}
+{"level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","timestamp":"2022-05-03T18:22:07.328Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2022-05-03T18:25:54.543Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2022-05-03T18:25:56.680Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","timestamp":"2022-05-03T18:26:01.941Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T18:27:41.552Z"}
+{"level":"error","message":"carts validation failed: product.quantity: Path `product.quantity` is required., product.id: Path `product.id` is required.","timestamp":"2022-05-03T18:27:47.635Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T18:27:53.203Z"}
+{"level":"error","message":"carts validation failed: product.quantity: Path `product.quantity` is required., product.id: Path `product.id` is required.","timestamp":"2022-05-03T18:29:03.351Z"}
+{"level":"error","message":"carts validation failed: product.quantity: Path `product.quantity` is required., product.id: Path `product.id` is required.","timestamp":"2022-05-03T18:33:09.904Z"}
+{"level":"error","message":"cart is not defined","timestamp":"2022-05-03T18:35:35.259Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T19:32:26.482Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T19:40:57.252Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T20:34:03.154Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:35:25.599Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:35:53.363Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:36:09.381Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:44:19.341Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:48:50.610Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:48:53.398Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:49:12.031Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:51:00.269Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:52:12.135Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:54:07.479Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:54:33.170Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:55:42.800Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T20:56:06.453Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:06:48.661Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:11:02.110Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:14:04.525Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:14:34.401Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:15:31.165Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:15:47.528Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:16:13.178Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:23:17.365Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:23:17.549Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:23:51.123Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:25:23.527Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:25:30.445Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:25:32.472Z"}
+{"level":"error","message":"Query was already executed: carts.remove({\n  _id: new ObjectId(\"62719dc7232b2c20c5289e65...","timestamp":"2022-05-03T21:25:38.132Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:25:38.519Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:25:47.992Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:25:50.282Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:25:52.295Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:26:37.178Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:26:50.049Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:26:52.021Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:26:56.827Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:29:29.626Z"}
+{"level":"error","message":"Cannot create property 'updatedAt' on string 'delete'","timestamp":"2022-05-03T21:29:40.088Z"}
+{"level":"error","message":"Cannot create property 'updatedAt' on string 'delete'","timestamp":"2022-05-03T21:30:00.059Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:31:28.917Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:41.589Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:46.143Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:49.765Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:49.766Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:54.848Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:54.848Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:57.268Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:32:57.269Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:33:01.391Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:33:05.929Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:33:10.956Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:34:55.458Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:35:05.473Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:21.021Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:24.508Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:24.508Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:27.672Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:27.673Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:27.673Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:31.122Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:31.123Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:31.123Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:35:31.123Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:35:35.468Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:35:38.841Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:36:53.801Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:36:53.801Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:36:53.801Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:36:53.802Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:36:53.802Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T21:38:45.891Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:38:46.340Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:40:13.993Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:40:18.294Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T21:41:25.190Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:41:25.592Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T21:41:50.928Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:41:57.724Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T21:41:59.886Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:42:43.894Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:42:47.885Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:42:47.886Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:42:58.847Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:42:58.848Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:42:58.848Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:01.432Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:01.432Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:01.433Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:01.433Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:04.618Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:04.619Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:04.619Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:04.620Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T21:43:04.620Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T22:52:53.346Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T22:54:34.967Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T22:55:12.968Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T22:56:20.723Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T22:57:17.986Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:03:32.566Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:04:04.267Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:09:49.351Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:10:04.112Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:11:45.832Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:23:59.483Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:27:31.944Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:27:34.886Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:27:41.275Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:31:51.202Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:31:54.543Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:33:21.469Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:34:06.459Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:34:16.274Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:34:37.498Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T23:35:17.647Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:35:28.261Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T23:37:21.590Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:37:29.922Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:38:41.348Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T23:38:55.908Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:38:57.384Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:39:18.940Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:39:20.695Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:39:22.390Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T23:39:54.604Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:39:57.214Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:40:15.491Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:51:30.755Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:51:48.689Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:51:52.794Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:51:56.451Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T23:52:19.900Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-03T23:52:26.921Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"{ _id: 'delete' }\" (type Object) at path \"_id\" for model \"products\"","timestamp":"2022-05-03T23:52:30.157Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-03T23:52:36.700Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-03T23:52:42.788Z"}
+{"level":"error","message":"error is not defined","timestamp":"2022-05-04T00:12:25.938Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:47.926Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:49.498Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:51.290Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:53.292Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:55.485Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:58.310Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:12:59.926Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:14.838Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:20.047Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:21.588Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:23.293Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:25.156Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:26.958Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:13:29.722Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T00:36:55.102Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T00:37:00.655Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T00:37:32.194Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T00:37:42.207Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T00:59:08.713Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T00:59:12.180Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T00:59:56.565Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:00:16.869Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:05:04.104Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:05:06.473Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:11:00.279Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:11:02.324Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:11:31.001Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:11:32.621Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:13:56.805Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:13:58.804Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:14:35.662Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:14:37.105Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:15:52.377Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:16:05.661Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:16:06.722Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:29:57.824Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:29:59.140Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:31:31.080Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:31:38.754Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:31:39.816Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:33:00.937Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:33:33.465Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:33:35.223Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:33:36.936Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: user_1 dup key: { user: \"6271c4eacfa9427b885c8498\" }","timestamp":"2022-05-04T01:33:49.007Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:33:50.004Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:35:41.579Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:36:02.649Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:36:04.410Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: user_1 dup key: { user: \"6271c4eacfa9427b885c8498\" }","timestamp":"2022-05-04T01:36:09.456Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:36:10.639Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:42:35.214Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: user_1 dup key: { user: \"6271c4eacfa9427b885c8498\" }","timestamp":"2022-05-04T01:42:50.052Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:42:51.030Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.orders index: cart_1 dup key: { cart: null }","timestamp":"2022-05-04T01:51:58.070Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:51:59.685Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:52:38.462Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:52:41.096Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:52:54.508Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:53:20.801Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:53:25.055Z"}
+{"level":"error","message":"Error agregando producto a carrito","timestamp":"2022-05-04T01:53:26.723Z"}
+{"level":"error","message":"Error encontrando carrito de usuario","timestamp":"2022-05-04T01:53:43.939Z"}

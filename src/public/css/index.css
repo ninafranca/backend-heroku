@@ -1,0 +1,108 @@
+/* FORM STYLES */
+.product-form_title {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 170%;
+}
+
+#product-form>div {
+    margin-bottom: -2.5%
+}
+
+#product-form>div>input {
+    height: 0.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+form>h1 {
+    padding-bottom: 1%;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+form>div>label {
+    font-size: 170%;
+    margin-left: -25%;
+}
+
+form>div>input {
+    font-size: 140%;
+    margin: 0 -25% 0 -25%;
+    border-color: rgb(119, 119, 119);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.botones>button {
+    font-size: 120%;
+    padding: 2% 40% 2% 40%;
+    margin: 0 25% 0 25%;
+}
+
+.sent-object {
+    text-align: center;
+    padding-top: 3%;
+    color: rgb(88, 71, 136);
+}
+
+#title-productos {
+    padding: 3% 0% 1% 0%;
+    text-align: center;
+}
+
+.div-products {
+    display: flex;
+    justify-content: center;
+}
+
+.div-div-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2%;
+    text-align: center;
+}
+
+.products-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-title-title {
+    font-size: 150%;
+}
+
+.products-title-brand {
+    font-size: 140%;
+}
+
+.products-title-description {
+    font-size: 120%;
+}
+
+.products-title-price {
+    font-size: 120%;
+}
+
+.title, .price {
+    font-size: 100% !important;
+}
+
+.thumbnail {
+    width: 7% !important;
+}

@@ -1,0 +1,62 @@
+/* CHAT STYLES */
+
+.chat {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chat>h1 {
+    font-size: 170%;
+    padding-bottom: 1%;
+}
+
+.user {
+    color: blue;
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+.alias {
+    color: rgb(153, 49, 153);
+}
+
+.date {
+    color: rgb(119, 27, 27);
+    padding-right: 1%;
+}
+
+.message {
+    color: green;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#user-name, #user-age, #avatar, #alias, #user-email {
+    font-size: 120%;
+    width: 30%;
+    margin-bottom: 2% !important;
+}
+
+#info {
+    width: 30%;
+    padding-bottom: 5%;
+    margin-bottom: 2.5% !important;
+}
+
+#send-message {
+    margin-bottom: 2%;
+    padding: 0.2% 1.5%;
+    font-size: 100%;
+}
+
+.sent-msg {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0.5% 20%;
+}
+
+.sent-msg>img {
+    width: 9%;
+    padding-right: 2%;
+}

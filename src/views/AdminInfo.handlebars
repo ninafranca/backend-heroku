@@ -1,0 +1,24 @@
+<header class="logged-header">
+    <a href="/admin-info">Cuenta</a>
+    <a href="/add-products-admin">Añadir productos</a>
+    <a href="/chat">Chat</a>
+    <a href="/logout">Desloguearse</a>
+</header>
+
+<div class="logged-user-info">
+    <h1>Administrador/a</h1>
+    <div class="info-flex1">
+        <div class="info-flex2">
+            <h2>E-mail: {{user.email}}</h2>
+            <h2>Nombre: {{user.name}}</h2>
+            <h2>Dirección: {{user.address}}</h2>
+            <h2>Edad: {{user.age}}</h2>
+            <h2>Teléfono: {{user.phone}}</h2>
+        </div>
+        <div class="info-flex-img">
+            <img src="/images/{{user.avatar}}" alt="User avatar" style="width: 20vw">
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
