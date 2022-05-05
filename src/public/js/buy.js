@@ -80,7 +80,7 @@ function newOrder (cartId, userId) {
 }
 
 function buyProduct (userId, prodId) {
-    fetch(`/carrito/usuario/${userId}/producto/${prodId}`, {
+    fetch(`/api/carrito/usuario/${userId}/producto/${prodId}`, {
         method: "POST",
         headers: {"Content-type": "application/json"}
     })
