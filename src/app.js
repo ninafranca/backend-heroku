@@ -167,20 +167,27 @@ app.get("/carrito/:id_user", passportCall("jwt"), (req, res) => {
                     }
                 }))
                 setTimeout(() => {
-                    let total = list.reduce((a, b) => {
-                        return {price: a.price + b.price};
-                    })
-                    let repeatedProds = [...list.reduce( (mp, o) => {
-                        if (!mp.has(o.title)) mp.set(o.title, {...o, count: 0});
-                        mp.get(o.title).count++;
-                        return mp;
-                    }, new Map).values()];
-                    const objects = {products: repeatedProds, user: user, cart: cartId, total: total};
-                    if (result.status === "success") {
-                        res.render("Cart", objects);
+                    if(list.length > 0) {
+                        let total = list.reduce((a, b) => {
+                            return {price: a.price + b.price};
+                        })
+                        let repeatedProds = [...list.reduce( (mp, o) => {
+                            if (!mp.has(o.title)) mp.set(o.title, { ...o, count: 0 });
+                            mp.get(o.title).count++;
+                            return mp;
+                        }, new Map).values()];
+                        const objects = {products: repeatedProds, user: user, cart: cartId, total: total};
+                        if (result.status === "success") {
+                            res.render("Cart", objects);
+                        } else {
+                            res.status(500).send(result);
+                            return;
+                        }
                     } else {
-                        res.status(500).send(result);
-                        return;}
+                        const objects = {user};
+                        res.render("Cart", objects);
+                        return
+                    }
                 }, 500)
             } else {
                 const objects = {user};
